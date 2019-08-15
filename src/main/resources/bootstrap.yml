@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: school-auth-service
+  cloud:
+    config:
+      uri: https://school-config-server.herokuapp.com
+  profiles:
+    active: 
+    - dev
